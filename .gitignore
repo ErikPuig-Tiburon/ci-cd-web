@@ -1,0 +1,8 @@
+# Ignora dependències
+node_modules/
+
+# Ignora build temporal
+dist/
+
+# Altres fitxers opcionals
+.env
