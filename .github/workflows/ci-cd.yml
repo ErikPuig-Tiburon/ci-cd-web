@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout codi
         uses: actions/checkout@v4
+      - name: Exemple d'ús de secret
+        run: echo "API=${{ secrets.API_KEY }}" >> .env
       - name: Instal·lar Node.js
         uses: actions/setup-node@v4
         with:
